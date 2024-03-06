@@ -71,10 +71,12 @@ input {
     padding: 4px;
 }
 
-.text {
+#text {
     /* border: 1px solid black; */
-    font-size: 1rem;
+    font-size: 1.5rem;
     min-width: 40vh;
     min-height: 2vh;
     margin:0.25rem;
+    /* border: 2px solid #124076; */
+    /* background-color: #FFC374; */
 }
