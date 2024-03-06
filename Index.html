@@ -9,7 +9,43 @@
     <title>Currency Converter</title>
 </head>
 <body>
-    <p id="fact"> </p> 
+    <div class = "Container">
+        <h1> Currency Converter </h1> 
+        <div class = "formContainer">
+            <form> 
+                <div class = "inputValue">
+                    Enter Amount
+                    <input value = "1" id = "inputField" type = "text"/>
+                </div>
+                <div class = "selectionToandFrom">
+                    <div class = "selections">
+                        From 
+                        <img id = "fromImage" src = "" />
+                        <select id = "fromCurrency"> 
+                            <option selected> USD </option>
+                            <option> INR </option>
+                        </select>
+                    </div>
+
+                    <div class = "selections">
+                        To 
+                        <img id = "toImage" src = "" />
+                        <select id = "toCurrency"> 
+                            <option> USD </option>
+                            <option selected> INR </option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class = "btn">
+                    <button id = "submitbtn">Convert</button> 
+                </div>
+            </form>
+        </div>
+        <p class = "text">
+            
+        </p>
+    </div>
     
     <script src="app.js"></script>
     

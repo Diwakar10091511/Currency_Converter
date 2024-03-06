@@ -1,0 +1,80 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #124076;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 40vh;
+    min-width: 40vh;
+    background-color: #F9E897;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.formContainer {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.selectionToandFrom{
+    /* margin: 1rem; */
+    padding: 0.25rem;
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+
+.selections {
+    margin: 1rem;
+    padding: 0.5rem;
+    /* border: 1px solid black; */
+}
+
+.inputValue {
+    margin: 1rem 1rem 0 1rem;
+    padding: 0.25rem;
+    /* border: 1px solid black; */
+}
+
+input {
+    margin: 0.5rem;
+}
+
+.btn {
+    margin: auto;
+    max-width: fit-content;
+}
+
+#submitbtn {
+    font-size: 1.5rem;
+    background-color: #FFC374;
+    border: 5px solid #7F9F80;
+    border-radius: 1px;
+    border-style: groove;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.text {
+    /* border: 1px solid black; */
+    font-size: 1rem;
+    min-width: 40vh;
+    min-height: 2vh;
+    margin:0.25rem;
+}
